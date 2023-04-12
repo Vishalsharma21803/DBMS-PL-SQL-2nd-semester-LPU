@@ -63,3 +63,16 @@ end;
 
 _____________________________________________________
 
+// finding area of a circle
+
+declare
+radius number:=:Radius;
+pi constant number:=3.144592654;
+area number;
+begin
+area:=pi*(radius**2);
+dbms_output.put_line('area of the circle: '|| area );
+end;
+
+_________________________________________________________
+
