@@ -50,3 +50,16 @@ end;
 
 _____________________________________________________________
 
+// declaring a constant and finding the circumference of circle
+
+declare
+radius number:=:Radius;
+pi constant number:=3.144592654;
+circumference number;
+begin
+circumference:=2*pi*radius;
+dbms_output.put_line('Circumference of the circle: '|| circumference );
+end;
+
+_____________________________________________________
+
