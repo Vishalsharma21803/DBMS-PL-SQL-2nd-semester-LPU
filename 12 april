@@ -76,6 +76,7 @@ end;
 
 _________________________________________________________
 
+// if - else statements (conditional statements)
 // finding out which number is greater
 
 declare
