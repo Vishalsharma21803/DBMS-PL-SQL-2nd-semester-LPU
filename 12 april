@@ -26,3 +26,15 @@ end;
 
 _____________________________________________________
 
+// taking input from the user (taking a and b from user)
+
+declare
+a number:=:a;
+b number:=:b;
+c number;
+begin
+c:=a+b;
+dbms_output.put_line(c);
+end;
+
+_________________________________________________________
