@@ -1,0 +1,14 @@
+// declaring variables and doing sum
+
+declare
+a number:=5;
+b number:=56;
+c number;
+begin
+c:=a+b;
+dbms_output.put_line(c);
+end;
+
+
+_____________________________________________________
+
