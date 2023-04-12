@@ -12,3 +12,17 @@ end;
 
 _____________________________________________________
 
+// adding text in the output with sum
+
+declare
+a number:=7;
+b number:=5;
+c number;
+begin
+c:=a+b;
+dbms_output.put_line('sum of a and b is' ||c);
+end;
+
+
+_____________________________________________________
+
