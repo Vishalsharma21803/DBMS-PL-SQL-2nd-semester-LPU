@@ -1,0 +1,30 @@
+declare
+a number;
+b number;
+c number;
+e exception;
+begin
+a:=:a;
+b:=:b;
+if b=0 then
+raise e;
+end if;
+c:=a/b;
+dbms_output.put_line('result ='||c);
+exception when e then
+dbms_output.put_line('error:-your divisor is zero');
+end;
+
+________________________________________________________
+
+Create OR REPLACE PROCEDURE greetings
+as
+begin
+dbms_output.put_line('Hello world!');
+END;
+
+begin
+greetings;
+end;
+
+________________________________________________________
