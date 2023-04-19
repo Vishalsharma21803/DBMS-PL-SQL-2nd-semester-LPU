@@ -28,3 +28,14 @@ greetings;
 end;
 
 ________________________________________________________
+
+CREATE OR REPLACE PROCEDURE findlin(x IN number, y IN number, z OUT number) IS
+BEGIN
+IF x<y THEN
+z:= x;
+ELSE
+z:=y;
+END IF;
+END;
+
+________________________________________________________
