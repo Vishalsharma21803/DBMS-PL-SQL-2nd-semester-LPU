@@ -1,0 +1,16 @@
+CREATE OR REPLACE PROCEDURE find_minimum (num1 IN NUMBER, num2 IN NUMBER, num3 IN NUMBER)IS
+min_num NUMBER;
+BEGIN
+IF num1 <= num2 AND num1 <= num3 THEN
+min_num := num1;
+ELSIF num2 <= num1 AND num2 <= num3 THEN
+min_num := num2;
+ELSE
+min_num := num3;
+END IF;
+DBMS_OUTPUT.PUT_LINE('Minimum number: ' || min_num);
+END;
+
+__________________________________________________________
+
+
