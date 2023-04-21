@@ -28,3 +28,18 @@ dbms_output.put_line('square of (23): '|| a);
 end;
 
 __________________________________________________________
+
+create or replace function findmin(x IN number, y IN number)
+return number
+IS
+z number;
+begin
+if x>y then
+z:=x;
+else
+z:=y;
+end if;
+return z;
+end;
+
+__________________________________________________________
