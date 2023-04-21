@@ -14,3 +14,17 @@ END;
 __________________________________________________________
 
 
+declare
+a number;
+procedure squrnum(x IN OUT number)IS
+begin
+x:=x*x;
+end;
+
+begin
+a:=23;
+squrnum(a);
+dbms_output.put_line('square of (23): '|| a);
+end;
+
+__________________________________________________________
